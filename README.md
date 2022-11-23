@@ -7,6 +7,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🎥 Live Video](#🎥-live-video)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -26,7 +27,7 @@
 
 # 📖 Metrics webapp <a name="about-project"></a>
 
-This React capstone project (remember what are they?)is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux. Also using an API that provides numeric data aboutCountry-stats
+This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that will create making use of React and Redux. Also using an API that provides numeric data about all Country Stats.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,9 +62,13 @@ This React capstone project (remember what are they?)is about building a mobile 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://superlative-lollipop-b2588e.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🎥 Live Video <a name="live-video"></a>
+
+- [Live Demo Link](https://www.loom.com/share/18d9e6b94d9a4ee6852680153dae1adf)
 
 <!-- GETTING STARTED -->
 
@@ -133,7 +138,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Daron976/React-group-project/issues).
+Feel free to check the [issues page](https://github.com/AshwinCarvalho999/react-redux-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
