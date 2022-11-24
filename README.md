@@ -68,7 +68,7 @@ This React capstone project is about building a mobile web application to check 
 
 ## 🎥 Live Video <a name="live-video"></a>
 
-- [Live Demo Link](https://www.loom.com/share/18d9e6b94d9a4ee6852680153dae1adf)
+- [Live Demo Link](https://www.loom.com/share/96264edb9af345f19f6626170d3a81ac)
 
 <!-- GETTING STARTED -->
 

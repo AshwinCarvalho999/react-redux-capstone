@@ -7,10 +7,10 @@ const CountryDetails = () => {
   const { countries } = useSelector((state) => state);
 
   return (
-    <div className="details">
+    <div className='details'>
       {countries.map((country) => (
         <li key={country?.name.common}>
-          <div className="map">
+          <div className='map'>
             <MapContainer
               center={{ lat: country?.latlng[0], lng: country?.latlng[1] }}
               zoom={6}
@@ -18,7 +18,7 @@ const CountryDetails = () => {
             >
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
               />
               <Marker
                 position={{ lat: country?.latlng[0], lng: country?.latlng[1] }}
@@ -31,37 +31,37 @@ const CountryDetails = () => {
               </Marker>
             </MapContainer>
           </div>
-          <div className="item">
+          <div className='item'>
             <p>TimesZones:</p>
             <p>
               <strong>{country?.timezones}</strong>
             </p>
           </div>
-          <div className="item">
+          <div className='item'>
             <p>The Official name: </p>
             <p>
               <strong>{country?.name.official}</strong>
             </p>
           </div>
-          <div className="item">
+          <div className='item'>
             <p>The Population: </p>
             <p>
               <strong>{country?.population}</strong>
             </p>
           </div>
-          <div className="item">
+          <div className='item'>
             <p>Capital Name: </p>
             <p>
               <strong>{country?.capital}</strong>
             </p>
           </div>
-          <div className="item">
+          <div className='item'>
             <p>The languages they speak are:</p>
             <p>{Object.values(country?.languages)}</p>
           </div>
-          <div className="item">
+          <div className='item'>
             <p>Coat Of Arms</p>
-            <img src={country?.coatOfArms.svg} alt="awesome coat 0f arm" />
+            <img src={country?.coatOfArms.svg} alt='awesome coat 0f arm' />
           </div>
         </li>
       ))}
